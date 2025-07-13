@@ -31,7 +31,7 @@ export default function Contact() {
       {/* Contact Info + Form */}
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Info */}
-        <div className="flex flex-col h-dvh gap-6">
+        <div className="flex flex-col gap-6">
           <div className="flex gap-2">
             <h2 className="text-xl font-semibold"> <IoMdMail /></h2>
             <p className="text-sm text-gray-300">thenandansingh1999@gmail.com</p>
