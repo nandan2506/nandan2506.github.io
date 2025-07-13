@@ -35,7 +35,7 @@ export default function Contact() {
             <p className="text-sm text-gray-300">Nandan Singh Danu</p>
           </div>
           <div>
-            <h2 className="text-xl font-semibold">Email</h2>
+            <h2 className="text-xl font-semibold"> <IoMdMail /></h2>
             <p className="text-sm text-gray-300">thenandansingh1999@gmail.com</p>
           </div>
           <div>
