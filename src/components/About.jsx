@@ -32,7 +32,7 @@ export default function About() {
           </h2>
           <hr className="my-2 h-1 bg-gradient-to-r from-red-500 to-indigo-300 w-36 rounded" />
           <p className="text-gray-300 text-lg leading-relaxed">
-            Hi, I'm <strong>Nandan Singh Danu</strong>, a 26-year-old full-stack
+            Hi, I'm <strong>Nandan Singh Danu</strong>, a full-stack
             web developer from Uttarakhand. I graduated from IGNOU and completed
             a Software Development course at Masai School.
             <br />
