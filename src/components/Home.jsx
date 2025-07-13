@@ -13,7 +13,7 @@ export default function Home() {
 
       {/* Info */}
       <p className="text-center text-lg font-serif px-4 md:w-[520px] text-gray-300">
-        I'm currently looking for full-time remote or on-site opportunities in the India.
+        I'm currently looking for full-time remote or on-site opportunities in India.
         Feel free to connect with me on
         <span className="text-[#ff8a8b]"> LinkedIn</span> or
         <span className="text-[#ff8a8b]"> Email</span>.
