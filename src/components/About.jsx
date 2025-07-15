@@ -4,16 +4,26 @@ import {
   FaJs,
   FaReact,
   FaNodeJs,
-  FaPython,
   FaGitAlt,
+  FaPython,
 } from "react-icons/fa";
-import { SiRedux, SiMongodb, SiPostman, SiExpress } from "react-icons/si";
+import {
+  SiRedux,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
+  SiTailwindcss,
+  SiFirebase,
+} from "react-icons/si";
 import { IoPersonSharp } from "react-icons/io5";
 import photo from "../assets/myPhoto.jpeg";
 
 export default function About() {
   return (
-    <div id="about" className="flex flex-col items-center scroll-mt-20 text-white py-20 px-6 gap-12 bg-[#0f152f]">
+    <div
+      id="about"
+      className="flex flex-col items-center scroll-mt-20 text-white py-20 px-6 gap-12 bg-[#0f152f]"
+    >
       {/* Heading */}
       <h1 className="text-4xl font-bold text-center">
         About <span className="text-[#ff8a8b]">Nandan</span>
@@ -32,9 +42,9 @@ export default function About() {
           </h2>
           <hr className="my-2 h-1 bg-gradient-to-r from-red-500 to-indigo-300 w-36 rounded" />
           <p className="text-gray-300 text-lg leading-relaxed">
-            Hi, I'm <strong>Nandan Singh Danu</strong>, a full-stack
-            web developer from Uttarakhand. I graduated from IGNOU and completed
-            a Software Development course at Masai School.
+            Hi, I'm <strong>Nandan Singh Danu</strong>, a full-stack web
+            developer from Uttarakhand. I graduated from IGNOU and completed a
+            Software Development course at Masai School.
             <br />
             <br />I specialize in the <strong>MERN stack</strong> (MongoDB,
             Express, React, Node.js) and enjoy building responsive,
@@ -60,10 +70,12 @@ export default function About() {
             { icon: <FaCss3Alt />, label: "CSS" },
             { icon: <FaJs />, label: "JavaScript" },
             { icon: <FaReact />, label: "React" },
+            { icon: <SiTailwindcss />, label: "Tailwind CSS" },
             { icon: <FaNodeJs />, label: "Node.js" },
             { icon: <SiRedux />, label: "Redux" },
             { icon: <SiExpress />, label: "Express" },
             { icon: <SiMongodb />, label: "MongoDB" },
+            { icon: <SiFirebase />, label: "Firebase" },
             { icon: <SiPostman />, label: "Postman" },
             { icon: <FaGitAlt />, label: "Git" },
             { icon: <FaPython />, label: "Python" },
