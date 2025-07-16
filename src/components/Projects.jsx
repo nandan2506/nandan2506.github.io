@@ -94,7 +94,7 @@ export default function Projects() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="booknestlibraryapp.netlify.app/"
+              href="https://booknestlibraryapp.netlify.app/"
               className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-indigo-300 hover:opacity-90 transition text-white px-4 py-2 rounded-md"
             >
               <LuSquareArrowOutUpRight /> Live Project
