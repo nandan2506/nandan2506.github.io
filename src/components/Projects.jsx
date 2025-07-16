@@ -67,6 +67,52 @@ export default function Projects() {
         <div className="bg-[#181d32] p-8 rounded-xl shadow-lg hover:shadow-indigo-500/30 transition">
           {/* Project Title */}
           <h2 className="text-2xl font-semibold mb-2 flex items-center gap-2 bg-gradient-to-r from-red-500 to-indigo-300 bg-clip-text text-transparent">
+            BookNest
+          </h2>
+          <hr className="h-[2px] bg-gradient-to-r from-red-500 to-indigo-300 w-33 mb-4" />
+
+          {/* Stack Icons */}
+          <div className="flex gap-4 mb-4 text-indigo-400 text-3xl">
+            <FaNodeJs />
+            <SiExpress />
+            <FaReact />
+            <SiMongodb />
+          </div>
+
+          {/* Description */}
+          <p className="text-gray-300 leading-relaxed mb-6">
+            <strong>BookNest</strong> The Library Management System is a
+            full-stack web application designed to manage books, track
+            borrowings, and maintain an organized record of book transactions.
+            It allows users to register, log in, search for books, borrow, and
+            return them while providing administrators with tools to manage the
+            library database.
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-wrap gap-4 mt-4">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="booknestlibraryapp.netlify.app/"
+              className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-indigo-300 hover:opacity-90 transition text-white px-4 py-2 rounded-md"
+            >
+              <LuSquareArrowOutUpRight /> Live Project
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/nandan2506/BookNest"
+              className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-indigo-300 hover:opacity-90 transition text-white px-4 py-2 rounded-md"
+            >
+              <FiGithub /> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div className="bg-[#181d32] p-8 rounded-xl shadow-lg hover:shadow-indigo-500/30 transition">
+          {/* Project Title */}
+          <h2 className="text-2xl font-semibold mb-2 flex items-center gap-2 bg-gradient-to-r from-red-500 to-indigo-300 bg-clip-text text-transparent">
             Thinktactoe
           </h2>
           <hr className="h-[2px] bg-gradient-to-r from-red-500 to-indigo-300 w-33 mb-4" />
