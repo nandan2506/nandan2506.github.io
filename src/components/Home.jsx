@@ -23,7 +23,7 @@ export default function Home() {
       <div className="flex items-center gap-6 mt-4">
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/14y2_Mm9NzcrkVIAczb2EVgdb7VkofaBN/view?usp=sharing"
+          href="https://drive.google.com/file/d/1f3_XtWx9Und1ZYPKf3n1j_oBA1pi2L8C/view?usp=sharing"
           className="bg-gradient-to-r from-red-500 to-indigo-400 hover:brightness-110 text-white px-6 py-2 rounded-lg font-semibold transition"
         >
           View Resume

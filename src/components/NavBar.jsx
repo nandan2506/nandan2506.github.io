@@ -26,7 +26,7 @@ export default function NavBar() {
         <NavLink icon={<GrProjects />} label="Projects" href="#projects" />
         <NavLink icon={<IoMdMail />} label="Contact" href="#contact" />
         <a
-          href="https://drive.google.com/file/d/14y2_Mm9NzcrkVIAczb2EVgdb7VkofaBN/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1f3_XtWx9Und1ZYPKf3n1j_oBA1pi2L8C/view?usp=sharing" 
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gradient-to-r from-red-500 to-indigo-300 hover:opacity-90 transition px-4 py-2 rounded-md font-semibold"
@@ -50,7 +50,7 @@ export default function NavBar() {
           <MobileLink label="Projects" href="#projects" />
           <MobileLink label="Contact" href="#contact" />
           <a
-            href="https://drive.google.com/file/d/14y2_Mm9NzcrkVIAczb2EVgdb7VkofaBN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1f3_XtWx9Und1ZYPKf3n1j_oBA1pi2L8C/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full text-start py-2 px-2 rounded hover:bg-red-500 transition"
